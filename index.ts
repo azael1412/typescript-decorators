@@ -16,7 +16,7 @@ export function logMethod(
       console.log("parametros"+params)
         // invoke greet() and get its return value
         const result = method.apply(this, args);
-        console.log("resultado"+result)
+        console.log("resultado: "+result)
         console.log(args)
 
         // convert result to string
